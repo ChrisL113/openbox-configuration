@@ -348,21 +348,21 @@
   <keybind key="XF86AudioPlay">
     <action name="Execute">
       <command>
-	playerctl play-pause --ignore-player JBL_TUNE110BT
+	playerctl play-pause
       </command>
     </action>
   </keybind>
   <keybind key="XF86AudioPrev">
     <action name="Execute">
       <command>
-	playerctl previous --ignore-player JBL_TUNE110BT
+	playerctl previous
       </command>
     </action>
   </keybind>
   <keybind key="XF86AudioNext">
     <action name="Execute">
       <command>
-	playerctl next --ignore-player JBL_TUNE110BT
+	playerctl next
       </command>
     </action>
   </keybind>
