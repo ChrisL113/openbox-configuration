@@ -404,6 +404,20 @@
 	    </command>
       </action>
     </keybind>
+    <keybind key="W-9">
+      <action name="Execute">
+        <command>
+        dunstctl close
+	    </command>
+      </action>
+    </keybind>
+    <keybind key="W-0">
+      <action name="Execute">
+        <command>
+        dunstctl close-all
+	    </command>
+      </action>
+    </keybind>
     <keybind key="W-b">
       <action name="Execute">
         <command>
