@@ -908,7 +908,8 @@
   </menu>
   <applications>
     <application class="*">
-      <decor>no</decor>
+	    <decor>no</decor>
+	    <focus>yes</focus>
     </application>
     <application name="Alacritty">
       <position force="no">
