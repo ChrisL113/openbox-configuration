@@ -407,6 +407,13 @@
 	    </command>
       </action>
     </keybind>
+    <keybind key="W-8">
+      <action name="Execute">
+        <command>
+        dunstctl history-pop
+	    </command>
+      </action>
+    </keybind>
     <keybind key="W-0">
       <action name="Execute">
         <command>
@@ -543,6 +550,24 @@
         <height>75%</height>
       </action>
     </keybind>
+    <keybind key="W-S-m">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>center</x>
+        <y>center</y>
+        <width>75%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <keybind key="W-S-u">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>center</x>
+        <y>center</y>
+        <width>55%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
     <!-- corners  -->
     <keybind key="W-y">
       <action name="UnmaximizeFull"/>
@@ -586,12 +611,20 @@
     </keybind>
     <keybind key="W-v">
       <action name="Execute">
-        <command>
-	clipmenu
+	<command>
+	~/.config/openbox/greenclip.sh
 	</command>
       </action>
     </keybind>
-    <keybind key="W-v">
+    <keybind key="W-S-v">
+      <action name="Execute">
+	<command>
+	   greenclip clear
+	</command>
+      </action>
+    </keybind>
+
+    <keybind key="W-x">
       <action name="Execute">
         <command>
 		~/.config/openbox/cleanClipmenu.sh	
@@ -982,16 +1015,46 @@
       </position>
       <size>
         <width>75%</width>
-        <height>75%</height>
+        <height>100%</height>
       </size>
     </application>
     <application name="nemo">
       <position force="no">
-        <x>960</x>
+        <x>center</x>
         <y>center</y>
       </position>
       <size>
-        <width>50%</width>
+        <width>75%</width>
+        <height>75%</height>
+      </size>
+    </application>
+    <application name="intellij-idea-community-edition">
+      <position force="no">
+        <x>center</x>
+        <y>center</y>
+      </position>
+      <size>
+        <width>75%</width>
+        <height>100%</height>
+      </size>
+    </application>
+    <application name="code">
+      <position force="no">
+        <x>center</x>
+        <y>center</y>
+      </position>
+      <size>
+        <width>75%</width>
+        <height>100%</height>
+      </size>
+    </application>
+    <application name="microsoft-edge-stable">
+      <position force="no">
+        <x>center</x>
+        <y>center</y>
+      </position>
+      <size>
+        <width>75%</width>
         <height>100%</height>
       </size>
     </application>
