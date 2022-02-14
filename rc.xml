@@ -559,7 +559,7 @@
         <height>100%</height>
       </action>
     </keybind>
-    <keybind key="W-S-u">
+    <keybind key="W-0x3D">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <x>center</x>
@@ -591,9 +591,7 @@
     <keybind key="W-0x3C">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <!-- <x>683</x> -->
         <x>960</x>
-        <!-- <y>384</y> -->
         <y>540</y>
         <width>50%</width>
         <height>50%</height>
@@ -616,22 +614,6 @@
 	</command>
       </action>
     </keybind>
-    <keybind key="W-S-v">
-      <action name="Execute">
-	<command>
-	   greenclip clear
-	</command>
-      </action>
-    </keybind>
-
-    <keybind key="W-x">
-      <action name="Execute">
-        <command>
-		~/.config/openbox/cleanClipmenu.sh	
-	</command>
-      </action>
-    </keybind>
-
 
   </keyboard>
   <mouse>
