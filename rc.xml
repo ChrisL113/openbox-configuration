@@ -400,14 +400,14 @@
 	    </command>
       </action>
     </keybind>
-    <keybind key="W-9">
+    <keybind key="W-8">
       <action name="Execute">
         <command>
         dunstctl close
 	    </command>
       </action>
     </keybind>
-    <keybind key="W-8">
+    <keybind key="W-9">
       <action name="Execute">
         <command>
         dunstctl history-pop
@@ -607,14 +607,20 @@
         <height>50%</height>
       </action>
     </keybind>
-    <keybind key="W-v">
+    <keybind key="W-1">
       <action name="Execute">
 	<command>
 	  xfce4-popup-clipman
 	</command>
       </action>
     </keybind>
-
+<keybind key="W-0x31">
+      <action name="Execute">
+	<command>
+	  xfce4-clipman-history
+	</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
@@ -996,7 +1002,7 @@
         <y>center</y>
       </position>
       <size>
-        <width>75%</width>
+        <width>55%</width>
         <height>100%</height>
       </size>
     </application>
@@ -1006,8 +1012,8 @@
         <y>center</y>
       </position>
       <size>
-        <width>75%</width>
-        <height>75%</height>
+        <width>55%</width>
+        <height>100%</height>
       </size>
     </application>
     <application name="intellij-idea-community-edition">
@@ -1016,7 +1022,7 @@
         <y>center</y>
       </position>
       <size>
-        <width>75%</width>
+        <width>50%</width>
         <height>100%</height>
       </size>
     </application>
@@ -1026,7 +1032,7 @@
         <y>center</y>
       </position>
       <size>
-        <width>75%</width>
+        <width>55%</width>
         <height>100%</height>
       </size>
     </application>
@@ -1036,7 +1042,7 @@
         <y>center</y>
       </position>
       <size>
-        <width>75%</width>
+        <width>50%</width>
         <height>100%</height>
       </size>
     </application>
