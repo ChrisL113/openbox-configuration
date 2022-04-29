@@ -555,20 +555,11 @@
       <action name="MoveResizeTo">
         <x>center</x>
         <y>center</y>
-        <width>75%</width>
+        <width>70%</width>
         <height>100%</height>
       </action>
     </keybind>
-    <keybind key="W-0x3D">
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo">
-        <x>center</x>
-        <y>center</y>
-        <width>55%</width>
-        <height>100%</height>
-      </action>
-    </keybind>
-    <!-- corners  -->
+    <!-- corners  --> 
     <keybind key="W-y">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
