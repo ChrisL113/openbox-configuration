@@ -345,16 +345,6 @@
         <command>scrot -u '/tmp/ScreenShot_%Y-%m-%dat%I:%M:%S-%p.png' -e 'xclip -selection clipboard -target image/png -i $f'</command>
       </action>
     </keybind>
-    <keybind key="W-0x33">
-      <action name="Execute">
-        <command>pamixer -i 10 </command>
-      </action>
-    </keybind>
-    <keybind key="W-0x30">
-      <action name="Execute">
-        <command>pamixer -d 10 </command>
-      </action>
-    </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
         <command>pamixer -i 10 </command>
@@ -993,7 +983,7 @@
         <y>center</y>
       </position>
       <size>
-        <width>55%</width>
+        <width>70%</width>
         <height>100%</height>
       </size>
     </application>
@@ -1003,7 +993,7 @@
         <y>center</y>
       </position>
       <size>
-        <width>55%</width>
+        <width>70%</width>
         <height>100%</height>
       </size>
     </application>
@@ -1013,7 +1003,7 @@
         <y>center</y>
       </position>
       <size>
-        <width>50%</width>
+        <width>70%</width>
         <height>100%</height>
       </size>
     </application>
@@ -1023,7 +1013,7 @@
         <y>center</y>
       </position>
       <size>
-        <width>55%</width>
+        <width>70%</width>
         <height>100%</height>
       </size>
     </application>
@@ -1033,7 +1023,7 @@
         <y>center</y>
       </position>
       <size>
-        <width>50%</width>
+        <width>70%</width>
         <height>100%</height>
       </size>
     </application>
