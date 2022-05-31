@@ -327,7 +327,7 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>alacritty</command>
+        <command>tabbed alacritty --embed</command>
       </action>
     </keybind>
     <keybind key="S-W-s">
@@ -383,6 +383,20 @@
       </command>
       </action>
     </keybind>
+    <keybind key="W-g">
+      <action name="Execute">
+        <command>
+        gentimestamp
+	</command>
+      </action>
+    </keybind>
+    <keybind key="W-c">
+      <action name="Execute">
+        <command>
+        ~/.config/openbox/caseform.sh
+	</command>
+      </action>
+    </keybind>
     <keybind key="W-r">
       <action name="Execute">
         <command>
@@ -390,14 +404,14 @@
 	    </command>
       </action>
     </keybind>
-    <keybind key="W-8">
+    <keybind key="W-9">
       <action name="Execute">
         <command>
         dunstctl close
 	    </command>
       </action>
     </keybind>
-    <keybind key="W-9">
+    <keybind key="W-8">
       <action name="Execute">
         <command>
         dunstctl history-pop
@@ -484,7 +498,7 @@
     <keybind key="W-C-q">
       <action name="Execute">
         <command>
-	openbox --exit
+	pkill X
 	    </command>
       </action>
     </keybind>
@@ -595,7 +609,7 @@
 	</command>
       </action>
     </keybind>
-<keybind key="W-0x31">
+<keybind key="W-0x09">
       <action name="Execute">
 	<command>
 	  xfce4-clipman-history
@@ -987,6 +1001,16 @@
         <height>100%</height>
       </size>
     </application>
+    <application name="tabbed">
+      <position force="no">
+        <x>center</x>
+        <y>center</y>
+      </position>
+      <size>
+        <width>70%</width>
+        <height>100%</height>
+      </size>
+    </application>
     <application name="nemo">
       <position force="no">
         <x>center</x>
@@ -997,7 +1021,7 @@
         <height>100%</height>
       </size>
     </application>
-    <application name="intellij-idea-community-edition">
+    <application name="idea">
       <position force="no">
         <x>center</x>
         <y>center</y>
