@@ -347,12 +347,12 @@
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>pamixer -i 10 </command>
+        <command>pamixer -i 5 </command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>pamixer -d 10 </command>
+        <command>pamixer -d 5 </command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
@@ -517,7 +517,7 @@
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <!-- <x>683</x> -->
-        <x>960</x>
+        <x>1920</x>
         <y>0</y>
         <width>50%</width>
         <height>100%</height>
@@ -537,7 +537,7 @@
       <action name="MoveResizeTo">
         <x>0</x>
         <!-- <y>384</y> -->
-        <y>540</y>
+        <y>1080</y>
         <width>100%</width>
         <height>50%</height>
       </action>
@@ -577,7 +577,7 @@
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <!-- <x>683</x> -->
-        <x>960</x>
+        <x>1920</x>
         <y>0</y>
         <width>50%</width>
         <height>50%</height>
@@ -586,8 +586,8 @@
     <keybind key="W-0x3C">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <x>960</x>
-        <y>540</y>
+        <x>1920</x>
+        <y>1080</y>
         <width>50%</width>
         <height>50%</height>
       </action>
@@ -597,7 +597,7 @@
       <action name="MoveResizeTo">
         <x>0</x>
         <!-- <y>384</y> -->
-        <y>540</y>
+        <y>1080</y>
         <width>50%</width>
         <height>50%</height>
       </action>
