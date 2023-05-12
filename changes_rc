@@ -1,5 +1,0 @@
-#!/bin/bash
-
-
-mv rc.xml  rc4k.xml
-mv rc1920.xml rc.xml
