@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ -f rc1080p.xml ]]; then
+if [ -f rc1080p.xml ]; then
    mv rc.xml  rc4k.xml
    mv rc1080p.xml rc.xml
 else 
